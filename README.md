@@ -6,7 +6,7 @@
 
 <a href="https://github.com/dong4j/homebrew-starcat"><img src="https://img.shields.io/badge/Install%20with-Homebrew-FBBF24?style=for-the-badge&logo=homebrew&logoColor=white" width="220" alt="Install with Homebrew"/></a><br/>
 <sub>
-<b>macOS 15 Sequoia or newer</b>: Install with <a href="https://github.com/dong4j/homebrew-starcat">Homebrew</a>, or download the <a href="https://starcat.ink/downloads/Starcat-1.1.0-arm64.dmg">current Direct build</a> for Apple Silicon Macs.<br>
+<b>macOS 15 Sequoia or newer</b>: Install with <a href="https://github.com/dong4j/homebrew-starcat">Homebrew</a>, or download the <a href="https://starcat.ink/downloads/Starcat-1.0.0-arm64.dmg">current Direct build</a> for Apple Silicon Macs.<br>
 Previous versions and release notes: <a href="./CHANGELOG.md">Changelog</a> · <a href="https://starcat.ink/changelog.html">Website changelog</a><br>
 Public issue tracker: <a href="https://github.com/dong4j/starcat-pro/issues">Report a bug or request a feature</a><br>
 中文说明: <a href="./README-ZH.md">README-ZH.md</a>
@@ -17,7 +17,7 @@ Public issue tracker: <a href="https://github.com/dong4j/starcat-pro/issues">Rep
 
 <div align="center">
 <a href="https://starcat.ink"><img src="https://img.shields.io/badge/website-starcat.ink-38BDF8?style=flat&color=blue" alt="website"/></a>
-<a href="https://starcat.ink/downloads/Starcat-1.1.0-arm64.dmg"><img src="https://img.shields.io/badge/platform-macOS%2015%2B-lightgrey.svg?style=flat&color=blue" alt="platform"/></a>
+<a href="https://starcat.ink/downloads/Starcat-1.0.0-arm64.dmg"><img src="https://img.shields.io/badge/platform-macOS%2015%2B-lightgrey.svg?style=flat&color=blue" alt="platform"/></a>
 <a href="https://github.com/dong4j/starcat-localization"><img src="https://img.shields.io/badge/localization-open%20for%20contributors-lightgrey.svg?style=flat&color=blue" alt="localization"/></a>
 <a href="https://github.com/dong4j/starcat-pro/issues"><img src="https://img.shields.io/github/issues/dong4j/starcat-pro?style=flat&color=blue" alt="issues"/></a>
 </div>
@@ -63,7 +63,7 @@ Starcat currently ships as a macOS Direct build. Core organization features are 
 
 - Download Starcat from the official website: https://starcat.ink
 - Homebrew tap: https://github.com/dong4j/homebrew-starcat
-- Current Direct build: https://starcat.ink/downloads/Starcat-1.1.0-arm64.dmg
+- Current Direct build: https://starcat.ink/downloads/Starcat-1.0.0-arm64.dmg
 - Release notes: https://starcat.ink/changelog.html
 
 Pro purchasing is not available yet. Final pricing, entitlement rules and payment flow will be announced when Starcat Pro opens.

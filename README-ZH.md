@@ -6,7 +6,7 @@
 
 <a href="https://github.com/dong4j/homebrew-starcat"><img src="https://img.shields.io/badge/Install%20with-Homebrew-FBBF24?style=for-the-badge&logo=homebrew&logoColor=white" width="220" alt="Install with Homebrew"/></a><br/>
 <sub>
-<b>macOS 15 Sequoia 或更高版本</b>：优先使用 <a href="https://github.com/dong4j/homebrew-starcat">Homebrew</a> 安装，也可以下载面向 Apple Silicon Mac 的 <a href="https://starcat.ink/downloads/Starcat-1.1.0-arm64.dmg">当前 Direct 版本</a>。<br>
+<b>macOS 15 Sequoia 或更高版本</b>：优先使用 <a href="https://github.com/dong4j/homebrew-starcat">Homebrew</a> 安装，也可以下载面向 Apple Silicon Mac 的 <a href="https://starcat.ink/downloads/Starcat-1.0.0-arm64.dmg">当前 Direct 版本</a>。<br>
 历史版本与发布说明：<a href="./CHANGELOG-ZH.md">更新日志</a> · <a href="https://starcat.ink/changelog.html">官网更新记录</a><br>
 公开问题反馈：<a href="https://github.com/dong4j/starcat-pro/issues">反馈 bug 或提出功能建议</a><br>
 English: <a href="./README.md">README.md</a>
@@ -17,7 +17,7 @@ English: <a href="./README.md">README.md</a>
 
 <div align="center">
 <a href="https://starcat.ink"><img src="https://img.shields.io/badge/website-starcat.ink-38BDF8?style=flat&color=blue" alt="website"/></a>
-<a href="https://starcat.ink/downloads/Starcat-1.1.0-arm64.dmg"><img src="https://img.shields.io/badge/platform-macOS%2015%2B-lightgrey.svg?style=flat&color=blue" alt="platform"/></a>
+<a href="https://starcat.ink/downloads/Starcat-1.0.0-arm64.dmg"><img src="https://img.shields.io/badge/platform-macOS%2015%2B-lightgrey.svg?style=flat&color=blue" alt="platform"/></a>
 <a href="https://github.com/dong4j/starcat-localization"><img src="https://img.shields.io/badge/localization-open%20for%20contributors-lightgrey.svg?style=flat&color=blue" alt="localization"/></a>
 <a href="https://github.com/dong4j/starcat-pro/issues"><img src="https://img.shields.io/github/issues/dong4j/starcat-pro?style=flat&color=blue" alt="issues"/></a>
 </div>
@@ -63,7 +63,7 @@ Starcat 目前以 macOS Direct 版本提供。核心整理能力免费，Pro 工
 
 - 从官网下载 Starcat：https://starcat.ink
 - Homebrew tap：https://github.com/dong4j/homebrew-starcat
-- 当前 Direct 版本：https://starcat.ink/downloads/Starcat-1.1.0-arm64.dmg
+- 当前 Direct 版本：https://starcat.ink/downloads/Starcat-1.0.0-arm64.dmg
 - 发布说明：https://starcat.ink/changelog.html
 
 Pro 购买尚未开放。最终价格、权益规则和支付流程会在 Starcat Pro 开放时公布。

@@ -2,88 +2,9 @@
 
 All notable changes to Starcat are summarized here for release notes.
 
-## 1.2.0
-
-### New
-
-- Added Getting Started onboarding system covering sync, RAG/Agent trials, project homepage, and knowledge base setup, with back navigation and debug-mode toggle.
-- Added overlay state protection to prevent onboarding lockout after unexpected exits, unified manual replay guard, and share guidance bubble positioning.
-- Added Agent and RAG workbenches as independent system windows with floating pin control, collapsible sidebars, and inherited interface scale.
-- Added Agent plan and tool output display, expanded event model, and completed runtime event feedback loop.
-- Added landing page hero loading animation with multi-stage transitions, macOS-native download modal with refreshed pricing grid, and a download version section.
-
-### Improved
-
-- Improved Agent workbench with enhanced audit trail visibility, refined reply styling, more recognizable toolbar entry points, and adjusted title bar controls.
-- Improved DMG background through multiple iterations including a lighter theme, simplified visuals, refined positioning, and updated icon and app-drop-link coordinates.
-- Improved landing page visual presentation by removing outer window styling from the hero area, hiding the Pro pricing card, and polishing overall texture.
-- Improved first-sync and weekly page loading states with shared loading indicators replacing empty-state views.
-- Improved DMG file name readability and background generation style.
-
-### Fixed
-
-- Fixed Agent default artifact selection on load.
-- Fixed RAG and workbench input boxes inserting unexpected newlines on first keystroke.
-- Fixed RAG middle column message alignment and restored workbench title bar icon visibility.
-- Fixed landing page macOS version label text.
-
-## 1.1.0
-
-### New
-
-- Added similar repository recommendations, with saved results, clearer recommendation cards, starred-repo indicators, and the option to open recommended repositories in a separate Starcat window.
-- Added more GitHub sign-in choices, including browser-based sign-in, token sign-in, a clearer login chooser, and a visible authorization countdown.
-- Added repository code intelligence as a Pro feature, giving each repository its own analysis workspace, cached results, and a dedicated settings entry.
-- Added an in-detail AI assistant entry, README AI summaries, summary caching, and smoother summary generation from both Starcat and browser-based entry points.
-- Added a Browser Plugin workflow for GitHub pages, including local pairing, repository context, notes, tags, health data, Wiki context, recommendations, and Safari WebExtension support.
-- Added a getting started checklist to guide first-time setup and key actions.
-- Added Explore and discovery surfaces for trending, discovery, GitHub search, and ranked repository lists.
-- Added README background fetching and health score prefetching so repository details can feel ready sooner.
-- Added health score sorting, improved health colors, and OpenSSF Scorecard warmup for easier repository evaluation.
-- Added menu bar and macOS menu controls for quicker access to common actions.
-- Added Direct distribution support alongside the App Store channel, including a separate Direct build target, channel-aware configuration, and Direct-only Sparkle update integration.
-- Added Sparkle update support for Direct builds, including an appcast feed, EdDSA key configuration, update menu integration, and documentation for key backup and multi-Mac signing workflows.
-- Added Direct license infrastructure with a License API service, local license storage, and a channel-neutral entitlement layer for App Store and Direct builds.
-- Added a provider-neutral direct payment abstraction so future payment gateways such as Creem can be integrated without binding the app to one vendor.
-- Added service status badges, service health checks, and local operations tools for easier setup and troubleshooting.
-- Added interface size controls, improved release timeline paging, and release subscription counts in the sidebar.
-
-### Improved
-
-- Improved recommendation UI placement, card layout, caching behavior, and Pro gating.
-- Improved README rendering, including GitHub image handling, system-style scrollbars, and clearer loading states.
-- Improved global search with a shortcut, history, better focus behavior, and pagination for GitHub results.
-- Improved GitHub Stars List handling, sidebar counts, language icons, and empty states.
-- Improved Activity and Weekly browsing with richer filters, faster counts, and clearer detail loading.
-- Improved sharing cards with new layouts, color options, better profile details, and safer Pro checks.
-- Improved Settings copy, storage actions, service configuration, and diagnostic log feedback.
-- Improved dark mode support across AI, health, search, sharing, and plugin-related screens.
-- Improved release readiness materials, open-source credits, distribution planning, and in-app release notes loading.
-- Improved Direct release tooling with separate App Store and Direct packaging scripts, Direct run targets, Sparkle appcast generation, and a release orchestration script for uploading appcast and DMG files.
-- Improved the Starcat website nginx configuration for Sparkle updates by adding no-cache appcast handling and explicit Direct download rules.
-- Improved shared action icon patterns across toolbars, dangerous actions, common actions, tags, sidebars, and batch operations.
-- Improved internal diagnostics, telemetry safety, and developer-only controls without exposing unfinished features as product features.
-
-### Fixed
-
-- Fixed cases where closing the main window could prevent Dock or menu bar reopening from restoring Starcat correctly.
-- Fixed cursor behavior when overlays sit above README content or other interactive views.
-- Fixed AI summary generation for repositories whose GitHub names differ only by letter case.
-- Fixed browser plugin actions so unavailable or Pro-only actions are handled more clearly.
-- Fixed notes and tags changed from external entry points so Starcat can refresh the visible content automatically.
-- Fixed recommended repository windows that could crash or leave README content stuck loading.
-- Fixed multiple CodebaseMemory launch, storage, cache, and repository-switching issues.
-- Fixed README images in subdirectories and GitHub raw image paths.
-- Fixed global search focus timing and several search result interaction details.
-- Fixed storage reset completion, unsigned-in storage scrolling, and several settings layout edge cases.
-- Fixed language aggregation sorting when language data is missing.
-- Fixed a release-build issue related to debug-only menu controls.
-- Fixed Direct build signing and entitlement checks so non-App Store builds run without the App Sandbox entitlement while App Store builds keep their sandbox configuration.
-- Fixed Direct update test packaging so temporary versions can override marketing/build versions and appcast generation no longer includes stale DMG files.
-
 ## 1.0.0
 
-Initial Starcat release.
+Initial Starcat public release.
 
 ### Highlights
 
@@ -102,6 +23,63 @@ Initial Starcat release.
 - Use English and Simplified Chinese throughout the app.
 - Run as a native macOS app with sandboxing, hardened runtime, window management, and App Store readiness work in place.
 
-[1.2.0]: https://github.com/dong4j/starcat/releases/tag/1.2.0
-[1.1.0]: https://github.com/dong4j/starcat/releases/tag/1.1.0
-[1.0.0]: https://github.com/dong4j/starcat/releases/tag/1.0.0
+### New
+
+- Added Getting Started onboarding system covering sync, RAG/Agent trials, project homepage, and knowledge base setup, with back navigation and debug-mode toggle.
+- Added overlay state protection to prevent onboarding lockout after unexpected exits, unified manual replay guard, and share guidance bubble positioning.
+- Added Agent and RAG workbenches as independent system windows with floating pin control, collapsible sidebars, and inherited interface scale.
+- Added Agent plan and tool output display, expanded event model, and completed runtime event feedback loop.
+- Added landing page hero loading animation with multi-stage transitions, macOS-native download modal with refreshed pricing grid, and a download version section.
+- Added similar repository recommendations, with saved results, clearer recommendation cards, starred-repo indicators, and the option to open recommended repositories in a separate Starcat window.
+- Added more GitHub sign-in choices, including browser-based sign-in, token sign-in, a clearer login chooser, and a visible authorization countdown.
+- Added repository code intelligence as a Pro feature, giving each repository its own analysis workspace, cached results, and a dedicated settings entry.
+- Added an in-detail AI assistant entry, README AI summaries, summary caching, and smoother summary generation from both Starcat and browser-based entry points.
+- Added a Browser Plugin workflow for GitHub pages, including local pairing, repository context, notes, tags, health data, Wiki context, recommendations, and Safari WebExtension support.
+- Added a getting started checklist to guide first-time setup and key actions.
+- Added Explore and discovery surfaces for trending, discovery, GitHub search, and ranked repository lists.
+- Added README background fetching and health score prefetching so repository details can feel ready sooner.
+- Added health score sorting, health color states, and OpenSSF Scorecard warmup for easier repository evaluation.
+- Added menu bar and macOS menu controls for quicker access to common actions.
+- Added Direct distribution support alongside the App Store channel, including a separate Direct build target, channel-aware configuration, and Direct-only Sparkle update integration.
+- Added Sparkle update support for Direct builds, including an appcast feed, EdDSA key configuration, update menu integration, and documentation for key backup and multi-Mac signing workflows.
+- Added Direct license infrastructure with a License API service, local license storage, and a channel-neutral entitlement layer for App Store and Direct builds.
+- Added a provider-neutral direct payment abstraction so future payment gateways such as Creem can be integrated without binding the app to one vendor.
+- Added service status badges, service health checks, and local operations tools for easier setup and troubleshooting.
+- Added interface size controls, release timeline paging, and release subscription counts in the sidebar.
+
+- Includes an Agent workbench with audit trail visibility, refined reply styling, recognizable toolbar entry points, and title bar controls.
+- Includes a polished DMG background, clear app-drop-link placement, and readable Direct distribution file names.
+- Includes a refined landing page presentation, macOS-native download flow, pricing layout, and product texture.
+- Includes first-sync and weekly page loading states with shared loading indicators.
+- Includes recommendation cards, recommendation caching, clear placement, starred-repository indicators, and Pro gating.
+- Includes README rendering with GitHub image handling, system-style scrollbars, and clear loading states.
+- Includes global search with keyboard shortcut, history, reliable focus behavior, and GitHub result pagination.
+- Includes GitHub Stars list handling, sidebar counts, language icons, and empty states.
+- Includes Activity and Weekly browsing with filters, fast counts, and detail loading states.
+- Includes sharing cards with multiple layouts, color options, profile details, and Pro-aware availability.
+- Includes Settings copy, storage actions, service configuration, and diagnostic log feedback.
+- Includes dark mode support across AI, health, search, sharing, and plugin-related screens.
+- Includes release readiness materials, open-source credits, distribution planning, and in-app release notes loading.
+- Includes Direct release tooling with separate App Store and Direct packaging scripts, Direct run targets, Sparkle appcast generation, and release orchestration for appcast and DMG upload.
+- Includes Starcat website nginx rules for Sparkle appcast freshness and Direct download paths.
+- Includes shared action icon patterns across toolbars, dangerous actions, common actions, tags, sidebars, and batch operations.
+- Includes internal diagnostics, telemetry safety, and developer-only controls without exposing unfinished features as product features.
+- Includes stable Agent default artifact selection on load.
+- Includes stable RAG and workbench input handling for first-keystroke text entry.
+- Includes RAG middle column message alignment and workbench title bar icon visibility.
+- Includes correct landing page macOS version labeling.
+- Includes Dock and menu bar reopening behavior after the main window is closed.
+- Includes correct cursor behavior when overlays sit above README content or other interactive views.
+- Includes AI summary generation for repositories whose GitHub names differ only by letter case.
+- Includes browser plugin handling for unavailable or Pro-only actions.
+- Includes automatic visible-content refresh after notes or tags are changed from external entry points.
+- Includes stable recommended repository windows and README loading behavior.
+- Includes CodebaseMemory launch, storage, cache, and repository-switching support.
+- Includes README image support for subdirectories and GitHub raw image paths.
+- Includes global search focus timing and refined search result interactions.
+- Includes storage reset completion states, unsigned-in storage scrolling, and settings layout edge cases.
+- Includes language aggregation sorting for repositories with missing language data.
+- Includes release-build-safe debug-only menu controls.
+- Includes Direct build signing and entitlement checks so non-App Store builds run without the App Sandbox entitlement while App Store builds keep their sandbox configuration.
+- Includes Direct update test packaging with temporary marketing/build version overrides and appcast generation that only uses the intended DMG files.
+
