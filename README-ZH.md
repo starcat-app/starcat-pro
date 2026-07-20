@@ -111,7 +111,7 @@ Starcat 提供 GitHub 页面 companion 工作流。Browser Plugin 可以在 GitH
 ### Browser Plugin Projects
 
 - [starcat-chrome-plugin](https://github.com/dong4j/starcat-chrome-plugin) - 用于 GitHub 页面的 Chrome/Chromium companion extension。
-- [starcat-safari-plugin](https://github.com/dong4j/starcat-safari-plugin) - 面向 macOS 的 Safari WebExtension companion package。
+- [starcat-safari-plugin](https://github.com/starcat-app/starcat-safari-plugin) - 面向 macOS 的 Safari WebExtension companion package。
 
 ### Self-Hostable API Projects
 

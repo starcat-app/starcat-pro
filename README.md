@@ -111,7 +111,7 @@ The project also prepares integration points for local automation and repository
 ### Browser Plugin Projects
 
 - [starcat-chrome-plugin](https://github.com/dong4j/starcat-chrome-plugin) - Chrome/Chromium companion extension for GitHub pages.
-- [starcat-safari-plugin](https://github.com/dong4j/starcat-safari-plugin) - Safari WebExtension companion package for macOS.
+- [starcat-safari-plugin](https://github.com/starcat-app/starcat-safari-plugin) - Safari WebExtension companion package for macOS.
 
 ### Self-Hostable API Projects
 
