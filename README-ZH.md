@@ -18,7 +18,7 @@ English: <a href="./README.md">README.md</a>
 <div align="center">
 <a href="https://starcat.ink"><img src="https://img.shields.io/badge/website-starcat.ink-38BDF8?style=flat&color=blue" alt="website"/></a>
 <a href="https://starcat.ink/downloads/Starcat-1.0.0-arm64.dmg"><img src="https://img.shields.io/badge/platform-macOS%2015%2B-lightgrey.svg?style=flat&color=blue" alt="platform"/></a>
-<a href="https://github.com/dong4j/starcat-localization"><img src="https://img.shields.io/badge/localization-open%20for%20contributors-lightgrey.svg?style=flat&color=blue" alt="localization"/></a>
+<a href="https://github.com/starcat-app/starcat-localization"><img src="https://img.shields.io/badge/localization-open%20for%20contributors-lightgrey.svg?style=flat&color=blue" alt="localization"/></a>
 <a href="https://github.com/starcat-app/starcat-pro/issues"><img src="https://img.shields.io/github/issues/starcat-app/starcat-pro?style=flat&color=blue" alt="issues"/></a>
 </div>
 
@@ -130,7 +130,7 @@ Starcat 使用多个小型支撑 API 来提供可选的发现、分享和仓库�
 
 Starcat 支持本地化。公开本地化资源仓库在这里：
 
-https://github.com/dong4j/starcat-localization
+https://github.com/starcat-app/starcat-localization
 
 贡献者可以通过 PR 改进翻译，也可以在 localization 仓库的 issue 中附上修改后的 `.xcstrings` 文件。
 

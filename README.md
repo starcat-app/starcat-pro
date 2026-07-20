@@ -18,7 +18,7 @@ Public issue tracker: <a href="https://github.com/starcat-app/starcat-pro/issues
 <div align="center">
 <a href="https://starcat.ink"><img src="https://img.shields.io/badge/website-starcat.ink-38BDF8?style=flat&color=blue" alt="website"/></a>
 <a href="https://starcat.ink/downloads/Starcat-1.0.0-arm64.dmg"><img src="https://img.shields.io/badge/platform-macOS%2015%2B-lightgrey.svg?style=flat&color=blue" alt="platform"/></a>
-<a href="https://github.com/dong4j/starcat-localization"><img src="https://img.shields.io/badge/localization-open%20for%20contributors-lightgrey.svg?style=flat&color=blue" alt="localization"/></a>
+<a href="https://github.com/starcat-app/starcat-localization"><img src="https://img.shields.io/badge/localization-open%20for%20contributors-lightgrey.svg?style=flat&color=blue" alt="localization"/></a>
 <a href="https://github.com/starcat-app/starcat-pro/issues"><img src="https://img.shields.io/github/issues/starcat-app/starcat-pro?style=flat&color=blue" alt="issues"/></a>
 </div>
 
@@ -130,7 +130,7 @@ Each API project contains its own README and deployment notes. Starcat's hosted 
 
 Starcat supports localization. Public localization resources are available here:
 
-https://github.com/dong4j/starcat-localization
+https://github.com/starcat-app/starcat-localization
 
 Contributors can improve translations through pull requests or by attaching edited `.xcstrings` files to issues in the localization repository.
 

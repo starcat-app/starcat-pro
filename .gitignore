@@ -1,0 +1,2 @@
+# macOS Finder metadata is local-only and must not enter the public repository.
+.DS_Store
