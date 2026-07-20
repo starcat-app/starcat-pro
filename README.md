@@ -117,12 +117,12 @@ The project also prepares integration points for local automation and repository
 
 Starcat uses small support APIs for optional discovery, sharing and repository intelligence workflows. These services are open so advanced users can inspect them, run them locally or deploy their own instances when they want full control of the server side.
 
-- [starcat-sharing-api](https://github.com/dong4j/starcat-sharing-api) - share page generation and rendering support.
-- [starcat-trending-api](https://github.com/dong4j/starcat-trending-api) - GitHub Trending collection and API.
-- [starcat-weekly-api](https://github.com/dong4j/starcat-weekly-api) - weekly project source aggregation and API.
-- [starcat-wiki-api](https://github.com/dong4j/starcat-wiki-api) - GitHub Wiki and documentation availability checks.
-- [starcat-recommend-api](https://github.com/dong4j/starcat-recommend-api) - similar repository recommendation proxy.
-- [starcat-discovery-api](https://github.com/dong4j/starcat-discovery-api) - discovery, hot and newly released repository feeds.
+- [starcat-sharing-api](https://github.com/starcat-app/starcat-sharing-api) - share page generation and rendering support.
+- [starcat-trending-api](https://github.com/starcat-app/starcat-trending-api) - GitHub Trending collection and API.
+- [starcat-weekly-api](https://github.com/starcat-app/starcat-weekly-api) - weekly project source aggregation and API.
+- [starcat-wiki-api](https://github.com/starcat-app/starcat-wiki-api) - GitHub Wiki and documentation availability checks.
+- [starcat-recommend-api](https://github.com/starcat-app/starcat-recommend-api) - similar repository recommendation proxy.
+- [starcat-discovery-api](https://github.com/starcat-app/starcat-discovery-api) - discovery, hot and newly released repository feeds.
 
 Each API project contains its own README and deployment notes. Starcat's hosted defaults are meant to work out of the box, but self-hosting is available for users who prefer their own infrastructure, API keys and data-retention policy.
 

@@ -117,12 +117,12 @@ Starcat 提供 GitHub 页面 companion 工作流。Browser Plugin 可以在 GitH
 
 Starcat 使用多个小型支撑 API 来提供可选的发现、分享和仓库智能工作流。这些服务已开源，进阶用户可以审查实现、本地运行，或在需要完全控制服务端时自行部署。
 
-- [starcat-sharing-api](https://github.com/dong4j/starcat-sharing-api) - 分享页面生成与渲染支撑服务。
-- [starcat-trending-api](https://github.com/dong4j/starcat-trending-api) - GitHub Trending 抓取与 API。
-- [starcat-weekly-api](https://github.com/dong4j/starcat-weekly-api) - 周刊项目源聚合与 API。
-- [starcat-wiki-api](https://github.com/dong4j/starcat-wiki-api) - GitHub Wiki 与文档可用性探测。
-- [starcat-recommend-api](https://github.com/dong4j/starcat-recommend-api) - 相似仓库推荐代理。
-- [starcat-discovery-api](https://github.com/dong4j/starcat-discovery-api) - 探索发现、热门和新发布仓库 feed。
+- [starcat-sharing-api](https://github.com/starcat-app/starcat-sharing-api) - 分享页面生成与渲染支撑服务。
+- [starcat-trending-api](https://github.com/starcat-app/starcat-trending-api) - GitHub Trending 抓取与 API。
+- [starcat-weekly-api](https://github.com/starcat-app/starcat-weekly-api) - 周刊项目源聚合与 API。
+- [starcat-wiki-api](https://github.com/starcat-app/starcat-wiki-api) - GitHub Wiki 与文档可用性探测。
+- [starcat-recommend-api](https://github.com/starcat-app/starcat-recommend-api) - 相似仓库推荐代理。
+- [starcat-discovery-api](https://github.com/starcat-app/starcat-discovery-api) - 探索发现、热门和新发布仓库 feed。
 
 每个 API 项目都有自己的 README 和部署说明。Starcat 默认托管服务面向开箱即用；如果你希望使用自己的基础设施、API key 和数据保留策略，也可以自行部署这些 API。
 
