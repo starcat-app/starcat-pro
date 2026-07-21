@@ -1,0 +1,12 @@
+# Support
+
+Use [GitHub Issues](https://github.com/starcat-app/starcat-pro/issues) for reproducible bugs and focused feature requests about this repository.
+
+Before opening an issue:
+
+- Search existing issues.
+- Include the affected version or commit, environment, and reproduction steps.
+- Remove API keys, tokens, license keys, private notes, customer data, and other secrets from logs or screenshots.
+- Keep one problem or request per issue.
+
+For Starcat application and product support, use [starcat-pro Issues](https://github.com/starcat-app/starcat-pro/issues). Report vulnerabilities privately through this repository's Security tab as described in [SECURITY.md](./SECURITY.md).

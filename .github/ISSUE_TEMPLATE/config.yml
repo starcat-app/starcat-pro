@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/starcat-app/starcat-pro/security/advisories/new
+    about: Report vulnerabilities privately; never include secrets in a public issue.
+  - name: Starcat product support
+    url: https://github.com/starcat-app/starcat-pro/issues/new/choose
+    about: Get help with the Starcat app, subscriptions, downloads, or product behavior.
