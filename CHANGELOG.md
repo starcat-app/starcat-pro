@@ -2,7 +2,7 @@
 
 All notable changes to Starcat are summarized here for release notes.
 
-## 1.2.0-待发布
+## 1.2.0
 
 Starcat 1.2.0 focuses on stability, usability, and visual polish—adding an 18-language interface, pinning, share links, shortcuts, and README capabilities, while refining navigation, tags, notes, translation, and knowledge-base flows.
 
