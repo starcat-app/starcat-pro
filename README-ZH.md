@@ -2,11 +2,11 @@
 <a href="https://starcat.ink"><img src="./banner.webp" width="100%" alt="Starcat Pro" align="center"/></a>
 
 <h2>Starcat Pro</h2>
-<p>GitHub Stars 管理、README 渲染、AI 摘要、语义搜索、Release 追踪、仓库健康度、Browser Plugin、CodeFlow、CodebaseMemory 等能力。</p>
+<p>GitHub Stars 管理、本地知识库 RAG、我的项目、全局与仓库洞察、macOS 桌面小组件、AI 摘要与语义搜索、Release 追踪、Browser Plugin、Alfred / uTools / Raycast 等能力。</p>
 
 <a href="https://github.com/starcat-app/homebrew-starcat"><img src="https://img.shields.io/badge/Install%20with-Homebrew-FBBF24?style=for-the-badge&logo=homebrew&logoColor=white" width="220" alt="Install with Homebrew"/></a><br/>
 <sub>
-<b>macOS 15 Sequoia 或更高版本</b>：优先使用 <a href="https://github.com/starcat-app/homebrew-starcat">Homebrew</a> 安装，也可以下载面向 Apple Silicon Mac 的 <a href="https://starcat.ink/downloads/Starcat-1.0.0-arm64.dmg">当前 Direct 版本</a>。<br>
+<b>macOS 15 Sequoia 或更高版本</b>：优先使用 <a href="https://github.com/starcat-app/homebrew-starcat">Homebrew</a> 安装，也可以下载面向 Apple Silicon Mac 的 <a href="https://starcat.ink/downloads/Starcat-1.3.0-arm64.dmg">当前 Direct 版本（1.3.0）</a>，或在 Mac App Store 搜索 <b>Starcat for GitHub</b>。<br>
 历史版本与发布说明：<a href="./CHANGELOG-ZH.md">更新日志</a> · <a href="https://starcat.ink/changelog.html">官网更新记录</a><br>
 公开问题反馈：<a href="https://github.com/starcat-app/starcat-pro/issues">反馈 bug 或提出功能建议</a><br>
 English: <a href="./README.md">README.md</a>
@@ -17,7 +17,7 @@ English: <a href="./README.md">README.md</a>
 
 <div align="center">
 <a href="https://starcat.ink"><img src="https://img.shields.io/badge/website-starcat.ink-38BDF8?style=flat&color=blue" alt="website"/></a>
-<a href="https://starcat.ink/downloads/Starcat-1.0.0-arm64.dmg"><img src="https://img.shields.io/badge/platform-macOS%2015%2B-lightgrey.svg?style=flat&color=blue" alt="platform"/></a>
+<a href="https://starcat.ink/downloads/Starcat-1.3.0-arm64.dmg"><img src="https://img.shields.io/badge/platform-macOS%2015%2B-lightgrey.svg?style=flat&color=blue" alt="platform"/></a>
 <a href="https://github.com/starcat-app/starcat-localization"><img src="https://img.shields.io/badge/localization-open%20for%20contributors-lightgrey.svg?style=flat&color=blue" alt="localization"/></a>
 <a href="https://github.com/starcat-app/starcat-pro/issues"><img src="https://img.shields.io/github/issues/starcat-app/starcat-pro?style=flat&color=blue" alt="issues"/></a>
 </div>
@@ -26,7 +26,7 @@ English: <a href="./README.md">README.md</a>
 
 ## About Starcat
 
-**Starcat** 是一款原生 macOS 应用，面向 GitHub Stars 已经超出普通收藏夹规模的用户。它把 starred repositories 同步到本地优先的桌面工作区，渲染 README，支持标签、私有笔记和阅读状态，追踪 Release，评估仓库健康度，并帮助你把收藏过的项目变成可复用的知识库。启用 AI 后，Starcat 可以生成 README 摘要、翻译项目文档、推荐标签、基于仓库上下文问答，并为 Pro 用户准备更深入的代码智能工作流。
+**Starcat** 是一款原生 macOS 应用，面向 GitHub Stars 已经超出普通收藏夹规模的用户。它把 starred repositories 同步到本地优先的桌面工作区，渲染 README，支持标签、私有笔记和阅读状态，追踪 Release，评估仓库健康度，并把收藏升级为可检索、可追问的本地知识库。从 1.3.0 起，你还可以集中管理「我的项目」、查看全局与单仓库洞察、使用 macOS 桌面小组件，并通过 Alfred / uTools / Raycast 快速找回仓库。启用 AI 后，Starcat 可以生成 README 摘要、翻译项目文档、推荐标签、基于仓库与洞察上下文问答，并为 Pro 用户提供更深入的代码智能工作流。
 
 <div align="center">
 <img width="900" src="./main.webp" alt="Starcat 主窗口"/>
@@ -34,39 +34,46 @@ English: <a href="./README.md">README.md</a>
 
 ## Key Features
 
-- **原生 GitHub Stars 管理器** - 使用 GitHub 登录，同步 starred repositories，并在 macOS 三栏界面中浏览。
+- **原生 GitHub Stars 管理器** - 使用 GitHub 登录，同步 starred repositories，并在 macOS 三栏界面中浏览、置顶与筛选。
 - **本地优先数据模型** - 标签、私有笔记和状态保存在本地 SQLite；仓库缓存可重建。
-- **README 渲染** - 阅读 GitHub README，支持图片处理、滚动工具和专注阅读界面。
+- **README 渲染** - 阅读 GitHub README，支持图片处理、Mermaid 图表、滚动工具和专注阅读界面。
+- **知识库 RAG 工作台** - 把入库仓库变成可问答的本地知识库，支持混合检索、流式回答、引用证据与会话管理。*
 - **AI 结构化摘要** - 生成仓库摘要，解释项目做什么、解决什么问题、使用什么技术栈。*
-- **README 翻译** - 翻译仓库 README，同时保留原始项目上下文。*
-- **仓库级 AI 对话** - 围绕当前仓库上下文提问。*
-- **标签、笔记和状态** - 用自定义标签、私有笔记、阅读状态或使用状态组织仓库。
+- **README 翻译** - 支持分段中英对照与全文翻译，同时保留原始项目上下文。*
+- **仓库级 AI 对话** - 围绕当前仓库上下文提问，并可复用洞察上下文。*
+- **标签、笔记和状态** - 用自定义标签、私有笔记、阅读状态或使用状态组织仓库；支持 AI 辅助生成笔记。
 - **批量整理** - 多选仓库后批量打标或执行操作。
 - **全文搜索** - 使用本地 FTS5 索引搜索仓库名、作者、描述、topics 和笔记。
 - **语义搜索** - 启用 AI 搜索后，可以按意图找仓库，而不只依赖精确关键词。*
+- **我的项目** - 集中查看个人、组织及外部协作仓库；通过 GitHub App 按授权范围浏览公开、私有和 Internal 项目。
+- **我的洞察 / 仓库洞察** - 从收藏或知识库查看整理进度、技术分布与待办，并下钻到 Star 增长、协作、提交、健康度与安全信号。
+- **洞察上下文复用** - 生成后的洞察可进入 AI 摘要、仓库对话与 RAG 回答，并以可移除的只读上下文展示。*
+- **macOS 桌面小组件** - 提供 Starcat Focus、今日重逢、Release Watch 和收藏趋势，点击直达对应内容。
 - **Release 订阅** - 订阅重要仓库，查看新版本，并让关键更新保持可见。
 - **Repo Health 和 OpenSSF 信号** - 在应用内查看维护活跃度、安全和健康度信号。
 - **Explore 和发现视图** - 浏览 Trending、Discovery、GitHub 搜索和仓库榜单。
 - **Browser Plugin 工作流** - 在 GitHub 页面中使用 Starcat 上下文、笔记、标签、健康度和 AI 操作。
-- **分享卡片** - 为仓库和个人资料生成视觉卡片。
+- **外部启动器搜索** - 通过 Alfred、uTools、Raycast 搜索 Starcat 本地仓库与 GitHub。
+- **分享卡片与分享链接** - 为仓库和个人资料生成视觉卡片，并支持可定位回应用的分享链接。
+- **可自定义快捷键** - 为搜索、刷新、知识库 RAG 与当前仓库 AI 配置全局快捷键。
+- **CLI / MCP / Agent Skill** - 让终端与 AI Agent 读取同一份本地知识库上下文。
 - **CodeFlow 和 CodebaseMemory 工作流** - 为 Pro 用户准备更深入的代码图谱和仓库智能分析。*
-- **Direct 分发** - 当前 macOS Direct 版本支持 Sparkle 应用内更新。
-- **本地化** - 已支持英文和简体中文，公开本地化资源仓库接受社区贡献。
+- **双渠道分发** - Mac App Store（Starcat for GitHub）与 Direct（官网 DMG / Homebrew + Sparkle 更新）。
+- **本地化** - 已支持 18 种界面语言，公开本地化资源仓库接受社区贡献。
 
-更多能力会随着 Starcat Pro 稳定继续加入。
+更多能力会随着版本迭代继续加入。当前公开版本为 **Starcat 1.3.0**。
 
-_注：带星号 (*) 的能力是 Pro 方向工作流，或依赖当前应用版本中启用的 AI/provider。Pro 购买尚未开放。_
+_注：带星号 (*) 的能力是 Pro 方向工作流，或依赖当前应用版本中启用的 AI/provider。_
 
-## Getting Starcat Pro
+## Getting Starcat
 
-Starcat 目前以 macOS Direct 版本提供。核心整理能力免费，Pro 工作流、更高 AI 配额和高级代码智能能力仍在准备中。
+Starcat 同时提供 Mac App Store 与 Direct 两个渠道。核心整理能力可免费使用；Pro 工作流、更高 AI 配额和高级代码智能能力可通过 App Store 内购，或 Direct 授权开通。
 
-- 从官网下载 Starcat：https://starcat.ink
+- 官网与下载：https://starcat.ink
+- Mac App Store：搜索 **Starcat for GitHub**
 - Homebrew tap：https://github.com/starcat-app/homebrew-starcat
-- 当前 Direct 版本：https://starcat.ink/downloads/Starcat-1.0.0-arm64.dmg
+- 当前 Direct 版本：https://starcat.ink/downloads/Starcat-1.3.0-arm64.dmg
 - 发布说明：https://starcat.ink/changelog.html
-
-Pro 购买尚未开放。最终价格、权益规则和支付流程会在 Starcat Pro 开放时公布。
 
 欢迎 star GitHub 页面、试用应用并反馈问题，这会帮助公开版本更快变好。
 
@@ -106,7 +113,7 @@ brew install --cask starcat
 
 Starcat 提供 GitHub 页面 companion 工作流。Browser Plugin 可以在 GitHub 页面上下文中展示 Starcat 操作：笔记、标签、健康度、README AI 摘要，以及跳回 macOS 应用的仓库入口。
 
-项目也在准备本地自动化和仓库智能工作流的集成点，例如 CodeFlow 和 CodebaseMemory。
+项目也在扩展本地自动化和仓库智能工作流的集成点，例如 CodeFlow、CodebaseMemory，以及桌面启动器搜索。
 
 ### CLI、MCP 与 AI Agent 项目
 
@@ -118,6 +125,12 @@ Starcat 提供 GitHub 页面 companion 工作流。Browser Plugin 可以在 GitH
 
 - [starcat-chrome-plugin](https://github.com/starcat-app/starcat-chrome-plugin) - 用于 GitHub 页面的 Chrome/Chromium companion extension。
 - [starcat-safari-plugin](https://github.com/starcat-app/starcat-safari-plugin) - 面向 macOS 的 Safari WebExtension companion package。
+
+### Launcher Integrations
+
+- [starcat-alfred-workflow](https://github.com/starcat-app/starcat-alfred-workflow) - 在 Alfred 中搜索 Starcat 本地仓库与 GitHub。
+- [starcat-utools-plugin](https://github.com/starcat-app/starcat-utools-plugin) - 在 uTools 中搜索 Starcat 本地仓库与 GitHub。
+- [starcat-raycast-extension](https://github.com/starcat-app/starcat-raycast-extension) - 在 Raycast 中搜索 Starcat 本地仓库与 GitHub。
 
 ### Self-Hostable API Projects
 
@@ -134,7 +147,7 @@ Starcat 使用多个小型支撑 API 来提供可选的发现、分享和仓库�
 
 ## Localization
 
-Starcat 支持本地化。公开本地化资源仓库在这里：
+Starcat 已支持 18 种界面语言。公开本地化资源仓库在这里：
 
 https://github.com/starcat-app/starcat-localization
 
