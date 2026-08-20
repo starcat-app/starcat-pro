@@ -13,6 +13,7 @@ Starcat 1.4.0 brings GitHub Notifications into Activity so you can handle mentio
 - Issue / PR threads: Open a notification to read the opening post and comments, write or preview a reply, and move to the previous or next item. Done matches GitHub Inbox Done and does not close the issue. Open the thread on GitHub, or the repository in Starcat.
 - AI comment drafts: Generate a reply from the current thread, or polish text you already typed. The reply follows the thread language, not your draft or the app UI language.
 - Thread translation: Translate the opening post and comments in segmented or full mode; titles, repository names, and the composer stay original. Target language can follow the app UI, paragraphs already in that language are skipped, and new translations fade in briefly.
+- Local CLI inference: Direct builds can run Knowledge Base RAG through Codex CLI or Claude Code CLI; Settings detects installation, version, and path, with setup guidance when a CLI is missing.
 
 ### Improvements
 
