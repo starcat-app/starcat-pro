@@ -16,6 +16,7 @@ Starcat 1.4.0 brings GitHub Notifications into Activity so you can handle mentio
 
 ### Improvements
 
+- External CodebaseMemory runtime: Direct builds no longer bundle the large executable; Starcat can detect a current official installation or use one selected in Settings.
 - Long thinking smoothness: Knowledge Q&A and repository AI chat stay responsive during long reasoning, and you can still expand to read the full text when it finishes.
 - Last AI-index prefetch: Opening Settings shows when the last prefetch finished, with counts and green, orange, or red status icons.
 - External index test status: Meilisearch and Qdrant each show their own result next to Test and Save, with green success, orange rebuild-needed, and red failure icons.
@@ -30,6 +31,7 @@ Starcat 1.4.0 brings GitHub Notifications into Activity so you can handle mentio
 
 ### Fixes
 
+- 3D code graph startup: Reuses the account-wide graph service and repository route, fixing valid installations being reported missing and shared-daemon cache conflicts causing port timeouts.
 - Query planning timeline: Thinking is nested under Query planning, and the plan plus Context Plan panel appear only after planning actually finishes.
 - Embedding cancel: Pausing vectorization no longer reports a network error or bounce the progress back.
 - Global filter panel: Removes the noticeable delay when opening repository filters for faster access.
