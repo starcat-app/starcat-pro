@@ -2,7 +2,7 @@
 
 All notable changes to Starcat are summarized here for release notes.
 
-## 1.4.0-待发布
+## 1.4.0
 
 Starcat 1.4.0 brings GitHub Notifications into Activity so you can handle mentions, review requests, and Issue / PR threads without leaving the app, while continuing to refine knowledge-base indexing and Explore.
 
