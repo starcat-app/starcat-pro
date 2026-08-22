@@ -2,11 +2,11 @@
 <a href="https://starcat.ink"><img src="./banner.webp" width="100%" alt="Starcat Pro" align="center"/></a>
 
 <h2>Starcat Pro</h2>
-<p>GitHub Stars management, local RAG knowledge base, My Projects, library and repository insights, macOS desktop widgets, AI summaries, semantic search, release tracking, browser plugins, Alfred / uTools / Raycast, and more.</p>
+<p>GitHub Stars management, local RAG knowledge base, GitHub notifications, My Projects, library and repository insights, macOS desktop widgets, AI summaries, semantic search, release tracking, browser plugins, Alfred / uTools / Raycast, and more.</p>
 
 <a href="https://github.com/starcat-app/homebrew-starcat"><img src="https://img.shields.io/badge/Install%20with-Homebrew-FBBF24?style=for-the-badge&logo=homebrew&logoColor=white" width="220" alt="Install with Homebrew"/></a><br/>
 <sub>
-<b>macOS 15 Sequoia or newer</b>: Install with <a href="https://github.com/starcat-app/homebrew-starcat">Homebrew</a>, download the <a href="https://starcat.ink/downloads/Starcat-1.3.0-arm64.dmg">current Direct build (1.3.0)</a> for Apple Silicon Macs, or get <b>Starcat for GitHub</b> from the Mac App Store.<br>
+<b>macOS 15 Sequoia or newer</b>: Install with <a href="https://github.com/starcat-app/homebrew-starcat">Homebrew</a>, download the <a href="https://starcat.ink/downloads/Starcat-1.4.0-arm64.dmg">current Direct build (1.4.0)</a> for Apple Silicon Macs, or get <b>Starcat for GitHub</b> from the Mac App Store.<br>
 Previous versions and release notes: <a href="./CHANGELOG.md">Changelog</a> · <a href="https://starcat.ink/changelog.html">Website changelog</a><br>
 Public issue tracker: <a href="https://github.com/starcat-app/starcat-pro/issues">Report a bug or request a feature</a><br>
 中文说明: <a href="./README-ZH.md">README-ZH.md</a>
@@ -17,7 +17,7 @@ Public issue tracker: <a href="https://github.com/starcat-app/starcat-pro/issues
 
 <div align="center">
 <a href="https://starcat.ink"><img src="https://img.shields.io/badge/website-starcat.ink-38BDF8?style=flat&color=blue" alt="website"/></a>
-<a href="https://starcat.ink/downloads/Starcat-1.3.0-arm64.dmg"><img src="https://img.shields.io/badge/platform-macOS%2015%2B-lightgrey.svg?style=flat&color=blue" alt="platform"/></a>
+<a href="https://starcat.ink/downloads/Starcat-1.4.0-arm64.dmg"><img src="https://img.shields.io/badge/platform-macOS%2015%2B-lightgrey.svg?style=flat&color=blue" alt="platform"/></a>
 <a href="https://github.com/starcat-app/starcat-localization"><img src="https://img.shields.io/badge/localization-open%20for%20contributors-lightgrey.svg?style=flat&color=blue" alt="localization"/></a>
 <a href="https://github.com/starcat-app/starcat-pro/issues"><img src="https://img.shields.io/github/issues/starcat-app/starcat-pro?style=flat&color=blue" alt="issues"/></a>
 </div>
@@ -26,7 +26,7 @@ Public issue tracker: <a href="https://github.com/starcat-app/starcat-pro/issues
 
 ## About Starcat
 
-**Starcat** is a native macOS app for people whose GitHub Stars have outgrown a bookmark list. It syncs starred repositories into a local-first desktop workspace, renders README content, adds tags, notes and reading status, tracks releases, evaluates repository health and turns saved projects into a searchable, askable knowledge base. Since 1.3.0 it also includes My Projects, library-wide and repository insights, macOS desktop widgets, and Alfred / uTools / Raycast search integrations. With AI enabled, Starcat can summarize README files, translate project docs, suggest tags, answer questions with repository and insight context, and prepare deeper code-intelligence workflows for Pro users.
+**Starcat** is a native macOS app for people whose GitHub Stars have outgrown a bookmark list. It syncs starred repositories into a local-first desktop workspace, renders README content, adds tags, notes and reading status, tracks releases, evaluates repository health and turns saved projects into a searchable, askable knowledge base. Since 1.3.0 it also includes My Projects, library-wide and repository insights, macOS desktop widgets, and Alfred / uTools / Raycast search integrations. 1.4.0 adds GitHub notifications and Issue / PR threads in Activity. With AI enabled, Starcat can summarize README files, translate project docs, suggest tags, answer questions with repository and insight context, and prepare deeper code-intelligence workflows for Pro users.
 
 <div align="center">
 <img width="900" src="./main.webp" alt="Starcat main window"/>
@@ -51,6 +51,7 @@ Public issue tracker: <a href="https://github.com/starcat-app/starcat-pro/issues
 - **macOS desktop widgets** - Starcat Focus, Today Reunion, Release Watch and collection trends, with deep links into the app.
 - **Release subscriptions** - subscribe to important repositories, review new releases and keep updates visible.
 - **Repo Health and OpenSSF signals** - evaluate maintenance, activity and security signals directly inside the app.
+- **GitHub notifications** - review mentions, review requests, and Issue / PR threads in Activity, with AI drafts and comment translation.
 - **Explore and discovery views** - browse trending, discovery, GitHub search and ranked repository lists.
 - **Browser Plugin workflow** - bring Starcat context, notes, tags, health and AI actions to GitHub pages.
 - **Launcher search integrations** - search Starcat local repositories and GitHub from Alfred, uTools and Raycast.
@@ -61,7 +62,7 @@ Public issue tracker: <a href="https://github.com/starcat-app/starcat-pro/issues
 - **Dual distribution** - Mac App Store (**Starcat for GitHub**) and Direct (website DMG / Homebrew with Sparkle updates).
 - **Localization** - 18 UI languages are available; community localization lives in a public repository.
 
-More capabilities continue to ship with each release. The current public version is **Starcat 1.3.0**.
+More capabilities continue to ship with each release. The current public version is **Starcat 1.4.0**.
 
 _Note: features marked with an asterisk (*) are Pro-oriented workflows or depend on AI/provider availability._
 
@@ -72,7 +73,7 @@ Starcat ships through both the Mac App Store and Direct channels. Core organizat
 - Website and downloads: https://starcat.ink
 - Mac App Store: search for **Starcat for GitHub**
 - Homebrew tap: https://github.com/starcat-app/homebrew-starcat
-- Current Direct build: https://starcat.ink/downloads/Starcat-1.3.0-arm64.dmg
+- Current Direct build: https://starcat.ink/downloads/Starcat-1.4.0-arm64.dmg
 - Release notes: https://starcat.ink/changelog.html
 
 Please star the GitHub page, try the app and report issues so the public release can improve faster.
