@@ -8,6 +8,7 @@ Starcat 1.5.0 continues the Activity inbox so you can handle Issue / PR status, 
 
 ### New
 
+- Agent multi-runtime: Switch the Agent workspace between the built-in runtime, Codex App Server, and DeepSeek Harness while reusing Starcat repository context, knowledge retrieval, and product tools.
 - Trained repository recommendations: The Direct edition now reads offline-trained results through the new recommendation pipeline while keeping the existing Similar Repositories entry and cache behavior.
 - Public Star contribution: An optional, off-by-default privacy setting can anonymously contribute public repository IDs and available Star dates to improve recommendations; uploads stay silent and never block normal sync.
 - In-app repository documents: Enable in Settings to open same-repo Markdown links in a Starcat window; the default remains the browser, and Command-click always uses the browser.
@@ -24,6 +25,7 @@ Starcat 1.5.0 continues the Activity inbox so you can handle Issue / PR status, 
 
 ### Improvements
 
+- Agent workspace: The execution timeline now exposes reasoning summaries, tool calls, errors, and artifacts, with structured step details and run metrics in the inspector.
 - Timeline empty detail: An illustration prompts you to pick an event in the middle column.
 - Issue event cache: Reopening an Issue after quitting still reads comments and events locally first. Clear it in Settings → Storage.
 - Issue comment drafts: Unsent handwritten or AI replies stay with each thread after you switch Issues or quit. Clear them in Settings → Storage.
