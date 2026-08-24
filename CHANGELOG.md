@@ -4,6 +4,8 @@ All notable changes to Starcat are summarized here for release notes.
 
 ## 1.5.0-待发布
 
+Starcat 1.5.0 continues the Activity inbox so you can handle Issue / PR status, filters, event history, and image comments in the app, and review README documents, videos, security advisories, and release assets without leaving Starcat.
+
 ### New
 
 - Trained repository recommendations: The Direct edition now reads offline-trained results through the new recommendation pipeline while keeping the existing Similar Repositories entry and cache behavior.
