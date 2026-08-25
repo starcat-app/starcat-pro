@@ -8,6 +8,7 @@ Starcat 1.5.0 continues the Activity inbox so you can handle Issue / PR status, 
 
 ### New
 
+- README in-page search: Press Command-F in a README to open the find bar and step through matches. List search defaults to Shift-Command-F, and both shortcuts can be changed in Settings.
 - Agent multi-runtime: Switch the Agent workspace between the built-in runtime, Codex App Server, and DeepSeek Harness while reusing Starcat repository context, knowledge retrieval, and product tools.
 - Trained repository recommendations: The Direct edition now reads offline-trained results through the new recommendation pipeline while keeping the existing Similar Repositories entry and cache behavior.
 - Public Star contribution: An optional, off-by-default privacy setting can anonymously contribute public repository IDs and available Star dates to improve recommendations; uploads stay silent and never block normal sync.
@@ -25,6 +26,7 @@ Starcat 1.5.0 continues the Activity inbox so you can handle Issue / PR status, 
 
 ### Improvements
 
+- Shortcut recorder: Modifier keys and the letter appear as separate keycaps so combinations are easier to read.
 - Agent workspace: The execution timeline now exposes reasoning summaries, tool calls, errors, and artifacts, with structured step details and run metrics in the inspector.
 - Timeline empty detail: An illustration prompts you to pick an event in the middle column.
 - Issue event cache: Reopening an Issue after quitting still reads comments and events locally first. Clear it in Settings → Storage.
