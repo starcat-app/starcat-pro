@@ -2,7 +2,7 @@
 
 All notable changes to Starcat are summarized here for release notes.
 
-## 1.5.0-待发布
+## 1.5.0
 
 Starcat 1.5.0 expands how you discover, organize, and revisit GitHub repositories with Awesome discovery, Spotlight search, GitHub Lists and batch AI organization, GitHub contribution widgets, and richer Activity conversations, README reading, and repository insights.
 
