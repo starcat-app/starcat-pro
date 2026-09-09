@@ -2,7 +2,7 @@
 
 All notable changes to Starcat are summarized here for release notes.
 
-## 1.6.1-待发布
+## 1.6.1
 
 Starcat 1.6.1 focuses on issues found after the 1.6.0 release across interface layout, filtering, search, and authorization, while refining macOS 26 Liquid Glass, Star history, and AI organization.
 
