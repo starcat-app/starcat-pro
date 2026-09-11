@@ -11,11 +11,15 @@ All notable changes to Starcat are summarized here for release notes.
 
 ### Improvements
 
+- Translation error toasts: Error toasts now dismiss automatically after 5 seconds instead of staying until manually closed.
+- Translation settings: README translation model and prompt configuration moved into the Translation Services settings page.
 - README translation workflow: The detail-page menu and Settings share one default-engine selection; caches are isolated per engine, and comparison/full translation incrementally fills in results with a lightweight transition.
 - README Star history: Activity, Explore, Trending, and Weekly README details now share the official Star history view with cache reuse and on-demand loading.
 
 ### Fixes
 
+- System translation errors: Failures such as a missing language pack, a timeout, or an unsupported language pair now show a specific reason instead of a generic "session unavailable" message.
+- Language detection: Acronym-heavy English READMEs no longer fail with "unable to identify the source language", and READMEs already in your language are skipped entirely.
 - Translation error reporting: Reports System, Google, and AI service failures separately instead of presenting System Translation failures as AI access errors.
 - AI panel cursor isolation: Prevents the AI summary and global search panels from inheriting cursor behavior from README or main-window content underneath.
 
