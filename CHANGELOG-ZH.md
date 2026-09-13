@@ -8,6 +8,7 @@
 
 - README 翻译服务：可在系统翻译、Google 翻译和 AI 翻译之间切换；系统翻译使用 macOS 本地能力，Google 翻译支持免 Key 公开网页接口。
 - Google 翻译配置：填写 API Key 后使用官方 Google Cloud Translation；凭据保存在系统钥匙串中，并可在「翻译服务」设置中管理。
+- 自己的 Fork：详情页按仓库所有权分流 Forks；自己的 fork 显示上游来源，并按领先/落后决定 Contribute 与同步 fork。
 
 ### 优化
 
@@ -15,6 +16,7 @@
 - 翻译服务设置：README 翻译的模型与提示词配置迁入「翻译服务」设置页统一管理。
 - README 翻译体验：详情页菜单和设置页统一管理默认引擎，翻译缓存按引擎隔离，支持对比翻译与全文翻译的增量回填和轻量过渡动画。
 - README 星标历史：Activity、Explore、Trending 与 Weekly 的 README 详情统一显示官方 Star 历史，并复用缓存与按需加载。
+- Fork 来源与同步：来源接到第二行 license 后；同步后继续显示上游，落后提交可一次同步。
 
 ### 修复
 

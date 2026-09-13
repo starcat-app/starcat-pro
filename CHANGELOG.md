@@ -8,6 +8,7 @@ All notable changes to Starcat are summarized here for release notes.
 
 - README translation services: Switch among System, Google, and AI translation; System uses macOS on-device translation, while Google works without a key through the public web endpoint.
 - Google Translation configuration: An optional API key enables official Google Cloud Translation; credentials are stored in Keychain and managed in Translation Services settings.
+- Own forks: Forks on the detail page follow repository ownership. Your fork shows its upstream and enables Contribute or Sync fork based on ahead/behind.
 
 ### Improvements
 
@@ -15,6 +16,7 @@ All notable changes to Starcat are summarized here for release notes.
 - Translation settings: README translation model and prompt configuration moved into the Translation Services settings page.
 - README translation workflow: The detail-page menu and Settings share one default-engine selection; caches are isolated per engine, and comparison/full translation incrementally fills in results with a lightweight transition.
 - README Star history: Activity, Explore, Trending, and Weekly README details now share the official Star history view with cache reuse and on-demand loading.
+- Fork source and sync: The parent repo sits after the license on the second header row; sync keeps the upstream visible and can finish in one click when you are behind.
 
 ### Fixes
 
