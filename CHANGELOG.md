@@ -9,6 +9,7 @@ All notable changes to Starcat are summarized here for release notes.
 - README translation services: Switch among System, Google, and AI translation; System uses macOS on-device translation, while Google works without a key through the public web endpoint.
 - Google Translation configuration: An optional API key enables official Google Cloud Translation; credentials are stored in Keychain and managed in Translation Services settings.
 - Own forks: Forks on the detail page follow repository ownership. Your fork shows its upstream and enables Contribute or Sync fork based on ahead/behind.
+- Private group badge: Private lists keep a green shield after the name in the sidebar, independent of the hover settings icon.
 
 ### Improvements
 

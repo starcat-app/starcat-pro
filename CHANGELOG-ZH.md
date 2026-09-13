@@ -9,6 +9,7 @@
 - README 翻译服务：可在系统翻译、Google 翻译和 AI 翻译之间切换；系统翻译使用 macOS 本地能力，Google 翻译支持免 Key 公开网页接口。
 - Google 翻译配置：填写 API Key 后使用官方 Google Cloud Translation；凭据保存在系统钥匙串中，并可在「翻译服务」设置中管理。
 - 自己的 Fork：详情页按仓库所有权分流 Forks；自己的 fork 显示上游来源，并按领先/落后决定 Contribute 与同步 fork。
+- 仓库分组私有标识：侧栏私有分组名称后常驻绿色盾牌，不随悬停设置图标出现或消失。
 
 ### 优化
 
