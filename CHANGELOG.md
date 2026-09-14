@@ -2,29 +2,29 @@
 
 All notable changes to Starcat are summarized here for release notes.
 
-## 1.6.2-待发布
+## 1.7.0-待发布
 
 ### New
 
-- README translation services: Switch among System, Google, and AI translation; System uses macOS on-device translation, while Google works without a key through the public web endpoint.
-- Google Translation configuration: An optional API key enables official Google Cloud Translation; credentials are stored in Keychain and managed in Translation Services settings.
-- Own forks: Forks on the detail page follow repository ownership. Your fork shows its upstream and enables Contribute or Sync fork based on ahead/behind.
-- Private group badge: Private lists keep a green shield after the name in the sidebar, independent of the hover settings icon.
+- Local AI: Built-in on-device models power summarization, tagging, and chat without an API key, free to use and enabled by default on first launch. Manage local models by category with Hugging Face and ModelScope downloads, enable a local reranker for Knowledge Base retrieval, and check model status and memory in the toolbar status panel.
+- Anthropic and CC Switch: Anthropic joins the AI provider list through the Messages API, and existing provider configurations can be imported from CC Switch in one click.
+- Settings reorganization: Notifications and Keyboard Shortcuts become separate pages, the general page groups are reorganized, and the legacy search shortcut is removed.
+- README translation services: Adds System Translation and Google Translation.
+- Contributors row: Repository details gain a contributors row with three overlapping avatars and an overflow count; click to view the full list.
+- Insight redesign: My Insights and activity overview cards follow the new prototype, and insights now open from Explore, Trending, Weekly, and Activity details.
+- Own forks: Forks are grouped by ownership, your fork shows its upstream, and ahead/behind decides Contribute and one-click sync.
+- Private group badge: Private groups keep a green shield after their name in the sidebar, independent of hover.
 
 ### Improvements
 
-- Translation error toasts: Error toasts now dismiss automatically after 5 seconds instead of staying until manually closed.
-- Translation settings: README translation model and prompt configuration moved into the Translation Services settings page.
-- README translation workflow: The detail-page menu and Settings share one default-engine selection; caches are isolated per engine, and comparison/full translation incrementally fills in results with a lightweight transition.
-- README Star history: Activity, Explore, Trending, and Weekly README details now share the official Star history view with cache reuse and on-demand loading.
-- Fork source and sync: The parent repo sits after the license on the second header row; sync keeps the upstream visible and can finish in one click when you are behind.
+- Star status badge: Lists use filled and outlined star badges to show Star state instead of the green checkmark.
+- Language menu: Now shows each language in its native name only.
 
 ### Fixes
 
-- System translation errors: Failures such as a missing language pack, a timeout, or an unsupported language pair now show a specific reason instead of a generic "session unavailable" message.
-- Language detection: Acronym-heavy English READMEs no longer fail with "unable to identify the source language", and READMEs already in your language are skipped entirely.
-- Translation error reporting: Reports System, Google, and AI service failures separately instead of presenting System Translation failures as AI access errors.
-- AI panel cursor isolation: Prevents the AI summary and global search panels from inheriting cursor behavior from README or main-window content underneath.
+- AI panel cursor isolation: Fixes the AI summary and global search panels inheriting cursor behavior from main-window content underneath.
+- Interface rendering: Fixes low-contrast yellow tag dots in light mode and metadata pills clipped in narrow columns.
+- Star history cards: Fixes card detection behind GitHub camo image proxying and duplicate injection when a README already embeds a history card.
 
 ## 1.6.1
 
