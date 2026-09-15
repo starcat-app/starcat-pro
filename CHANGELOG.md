@@ -2,7 +2,7 @@
 
 All notable changes to Starcat are summarized here for release notes.
 
-## 1.7.0-待发布
+## 1.7.0
 
 ### New
 
