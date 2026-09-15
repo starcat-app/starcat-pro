@@ -6,10 +6,10 @@ All notable changes to Starcat are summarized here for release notes.
 
 ### New
 
-- Local AI: Built-in on-device models power summarization, tagging, and chat without an API key, free to use and enabled by default on first launch. Manage local models by category with Hugging Face and ModelScope downloads, enable a local reranker for Knowledge Base retrieval, and check model status and memory in the toolbar status panel.
+- Local AI: Built-in on-device models power summarization, tagging, and chat without an API key, free to use and enabled by default on first launch. Manage local models by category with Hugging Face and ModelScope downloads, enable a local reranker for Knowledge Base retrieval, and check model status and memory in the toolbar status panel. Real-time run logs can be viewed and cleared.
 - Anthropic and CC Switch: Anthropic joins the AI provider list through the Messages API, and existing provider configurations can be imported from CC Switch in one click.
 - Settings reorganization: Notifications and Keyboard Shortcuts become separate pages, the general page groups are reorganized, and the legacy search shortcut is removed.
-- README translation services: Adds System Translation and Google Translation.
+- README translation services: Adds System Translation and Google Translation, per-notification engine selection, and centralized translation settings with system language pack management.
 - Contributors row: Repository details gain a contributors row with three overlapping avatars and an overflow count; click to view the full list.
 - Insight redesign: My Insights and activity overview cards follow the new prototype, and insights now open from Explore, Trending, Weekly, and Activity details.
 - Own forks: Forks are grouped by ownership, your fork shows its upstream, and ahead/behind decides Contribute and one-click sync.
@@ -19,6 +19,7 @@ All notable changes to Starcat are summarized here for release notes.
 
 - Star status badge: Lists use filled and outlined star badges to show Star state instead of the green checkmark.
 - Language menu: Now shows each language in its native name only.
+- Semantic search feedback: The search footer shows retrieval progress, semantic match scores, and vector coverage, and semantic recall now includes README content.
 
 ### Fixes
 
