@@ -10,6 +10,8 @@ All notable changes to Starcat are summarized here for release notes.
 
 - System screensaver: Direct can install the Owner avatar wall as a macOS screensaver, then install, update, or remove it in Settings. Cells show artwork only.
 
+- App Store data import: On first launch, Direct can copy the official App Store library, notes, and caches on this Mac, or skip and start fresh. Apple subscriptions are not copied.
+
 ## 1.7.0
 
 ### New
