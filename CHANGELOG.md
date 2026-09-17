@@ -2,6 +2,12 @@
 
 All notable changes to Starcat are summarized here for release notes.
 
+## 1.8.0-待发布
+
+### New
+
+- Repository file download: Browse the file tree from repository details, preview source and images, then download selected files including Git LFS.
+
 ## 1.7.0
 
 ### New
