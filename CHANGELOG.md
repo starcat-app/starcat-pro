@@ -8,6 +8,8 @@ All notable changes to Starcat are summarized here for release notes.
 
 - Repository file download: Browse the file tree from repository details, preview source and images, then download selected files including Git LFS.
 
+- System screensaver: Direct can install the Owner avatar wall as a macOS screensaver, then install, update, or remove it in Settings. Cells show artwork only.
+
 ## 1.7.0
 
 ### New
