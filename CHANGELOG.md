@@ -7,10 +7,19 @@ All notable changes to Starcat are summarized here for release notes.
 ### New
 
 - Repository file download: Browse the file tree from repository details, preview source and images, then download selected files including Git LFS.
-
 - System screensaver: Direct can install the Owner avatar wall as a macOS screensaver, then install, update, or remove it in Settings. Cells show artwork only.
-
 - App Store data import: On first launch, Direct can copy the official App Store library, notes, and caches on this Mac, or skip and start fresh. Apple subscriptions are not copied.
+- External Star alerts: While Starcat is active, detects Stars added through GitHub, a browser, or other tools, surfaces them as an avatar alert in All Repositories, and syncs them with one click.
+- Labs decision engine: Adds an optional, off-by-default TypeSafe Jev experiment. Manual GitHub Lists grouping and tag generation can reuse existing categories first; when new tags are allowed and needed, the configured LLM fills the gap. Includes separate setup and connection testing.
+
+### Improvements
+
+- GitHub Lists grouping: When OAuth restrictions block remote writes for organization repositories, keeps their grouping locally with a clear status and supports retrying after authorization; batch updates now run concurrently for shorter waits.
+- Star history motion: Animates Insight charts and README Star-history cards the first time they enter view, with the total Star count updating in sync; Reduce Motion and image exports remain static.
+
+### Fixes
+
+- README image loading: Works around intermittent GitHub camo proxy failures, falls back to Starcat's native Star-history card when an embedded card cannot load, and keeps a visible fallback for other failed README images.
 
 ## 1.7.0
 
