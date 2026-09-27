@@ -11,6 +11,7 @@ All notable changes to Starcat are summarized here for release notes.
 ### Improvements
 
 - Shared local AI models: App Store and Direct now use one protected model store on this Mac; existing verified downloads migrate automatically, avoiding duplicate multi-gigabyte copies.
+- Batch tag vocabulary control: Jev first reuses existing tags; uncovered repositories are pooled into one AI request with at most five shared candidates, then reclassified only after confirmation. Auto Tidy never expands the vocabulary.
 - Labs Jev OpenRouter fallback: Uses a verified OpenRouter configuration for Jev when no TypeSafe key is set; the native key remains preferred, and the LLM still fills gaps when no existing tag fits.
 - MCP paired devices: Shows each device's pairing date and time, making recent pairings easier to distinguish from older records.
 
