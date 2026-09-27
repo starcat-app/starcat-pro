@@ -4,6 +4,10 @@ All notable changes to Starcat are summarized here for release notes.
 
 ## 1.9.0-待发布
 
+### New
+
+- Initial tag taxonomy: Analyze all starred repositories locally when the tag library is empty, then review assignments from an approved vocabulary without configuring an AI provider first.
+
 ### Improvements
 
 - Shared local AI models: App Store and Direct now use one protected model store on this Mac; existing verified downloads migrate automatically, avoiding duplicate multi-gigabyte copies.
