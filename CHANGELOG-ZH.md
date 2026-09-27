@@ -6,6 +6,7 @@
 
 ### 优化
 
+- 本地 AI 模型共享：App Store 与 Direct 现在共用本机同一份受保护模型；已下载且校验通过的旧模型会自动迁移，避免重复占用数 GB 空间。
 - Labs Jev OpenRouter 回退：未配置 TypeSafe Key 时，可复用已验证的 OpenRouter 配置调用 Jev；原生 Key 仍优先，缺少合适标签时继续由 LLM 补充。
 - MCP 配对设备：显示每台设备的配对日期与时间，便于区分近期配对和较早记录。
 
