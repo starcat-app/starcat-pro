@@ -2,6 +2,13 @@
 
 All notable changes to Starcat are summarized here for release notes.
 
+## 1.9.0-待发布
+
+### Improvements
+
+- Labs Jev OpenRouter fallback: Uses a verified OpenRouter configuration for Jev when no TypeSafe key is set; the native key remains preferred, and the LLM still fills gaps when no existing tag fits.
+- MCP paired devices: Shows each device's pairing date and time, making recent pairings easier to distinguish from older records.
+
 ## 1.8.0
 
 ### New
