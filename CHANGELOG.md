@@ -12,6 +12,7 @@ All notable changes to Starcat are summarized here for release notes.
 
 ### Improvements
 
+- Expanded interface languages: Adds Arabic, Brazilian Portuguese, Dutch, French, German, Indonesian, Italian, Japanese, Korean, Polish, Russian, Spanish, Traditional Chinese, Turkish, Ukrainian, and Vietnamese, with placeholders and technical literals validated across all 18 localizations.
 - Repository header actions: Click the logo to view the owner card, or click the owner or project name to open its GitHub page in your default browser; project-name clicks no longer copy the full repository name.
 - Shared local AI models: App Store and Direct now use one protected model store on this Mac; existing verified downloads migrate automatically, avoiding duplicate multi-gigabyte copies.
 - Batch tag vocabulary control: Jev first reuses existing tags; uncovered repositories are pooled into one AI request with at most five shared candidates, then reclassified after confirmation. Large reviewed batches now apply through chunked transactions with live progress, while Auto Tidy never expands the vocabulary.
