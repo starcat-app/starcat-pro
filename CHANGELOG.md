@@ -2,6 +2,12 @@
 
 All notable changes to Starcat are summarized here for release notes.
 
+## 2.0.0-待发布
+
+### New
+
+- Development update channel: Direct users can opt into signed and notarized preview releases in Settings, while Stable remains the default.
+
 ## 1.9.0
 
 ### New
