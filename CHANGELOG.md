@@ -7,6 +7,7 @@ All notable changes to Starcat are summarized here for release notes.
 ### New
 
 - Development update channel: Direct users can opt into signed and notarized preview releases in Settings, while Stable remains the default.
+- Linux.do discovery: Browse verified open-source projects promoted on Linux.do, see provenance badges across repository lists, and open original discussions from repository details.
 
 ## 1.9.0
 
