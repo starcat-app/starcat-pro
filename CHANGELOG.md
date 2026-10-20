@@ -13,10 +13,13 @@ All notable changes to Starcat are summarized here for release notes.
 
 ### Improvements
 
+- Background organization entry: After closing repository grouping or tag organization, the middle column keeps showing the current phase and processed counts, with direct access to the task or results.
+- Localized organization status: Task states and actions cover all 18 interface languages, stay on one line in narrow columns, and show their full text on hover.
 - License filter chips: Match sidebar tags with wrapping, content-sized height, and bounded scrolling; colors distinguish license obligation types, with full names and category notes on hover.
 
 ### Fixes
 
+- AI organization tabs: Repository grouping and tag organization tabs keep a stable size as counts change, without shifting when switching states.
 - License filter popover: Keeps its size and options stable during repeated selections and clearing, while results and counts continue to update.
 - Middle-column menus: Sort, trending period, and notification filters now show a single dropdown arrow.
 
