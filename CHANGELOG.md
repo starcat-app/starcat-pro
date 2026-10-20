@@ -11,6 +11,10 @@ All notable changes to Starcat are summarized here for release notes.
 - Quick search across lists: Expand the middle-column search field to quickly find repositories and activity items across Manage, Explore, Trending, Weekly, Awesome, Linux.do, notifications, and Undo Star.
 - Repository license filters: Select multiple licenses in the main window and combine them with other filters, with consistent pagination, project counts, and cached results.
 
+### Improvements
+
+- License filter chips: Match the sidebar tag style with automatic wrapping and content-sized height; longer lists scroll within the filter, and hovering reveals full names.
+
 ### Fixes
 
 - Middle-column menus: Sort, trending period, and notification filters now show a single dropdown arrow.
