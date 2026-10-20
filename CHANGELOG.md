@@ -13,10 +13,11 @@ All notable changes to Starcat are summarized here for release notes.
 
 ### Improvements
 
-- License filter chips: Match the sidebar tag style with automatic wrapping and content-sized height; longer lists scroll within the filter, and hovering reveals full names.
+- License filter chips: Match sidebar tags with wrapping, content-sized height, and bounded scrolling; colors distinguish license obligation types, with full names and category notes on hover.
 
 ### Fixes
 
+- License filter popover: Keeps its size and options stable during repeated selections and clearing, while results and counts continue to update.
 - Middle-column menus: Sort, trending period, and notification filters now show a single dropdown arrow.
 
 ## 1.9.0
