@@ -9,6 +9,7 @@ All notable changes to Starcat are summarized here for release notes.
 - Development update channel: Direct users can opt into signed and notarized preview releases in Settings, while Stable remains the default.
 - Linux.do discovery: Browse verified open-source projects promoted on Linux.do, see provenance badges across repository lists, and open original discussions from repository details.
 - Quick search across lists: Expand the middle-column search field to quickly find repositories and activity items across Manage, Explore, Trending, Weekly, Awesome, Linux.do, notifications, and Undo Star.
+- Repository license filters: Select multiple licenses in the main window and combine them with other filters, with consistent pagination, project counts, and cached results.
 
 ### Fixes
 
