@@ -20,6 +20,7 @@ All notable changes to Starcat are summarized here for release notes.
 
 ### Fixes
 
+- Stars sync: Prevents background grouping work from keeping refresh active; pending organization authorization writes are retried only after a manual refresh.
 - AI organization tabs: Repository grouping and tag organization tabs keep a stable size as counts change, without shifting when switching states.
 - License filter popover: Keeps its size and options stable during repeated selections and clearing, while results and counts continue to update.
 - Middle-column menus: Sort, trending period, and notification filters now show a single dropdown arrow.
