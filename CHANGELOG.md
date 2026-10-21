@@ -13,6 +13,7 @@ All notable changes to Starcat are summarized here for release notes.
 
 ### Improvements
 
+- Business icons: Insights icons now match the main window, while similar-repository recommendations, embedding models, and CodeFlow are easier to distinguish.
 - Background task overview: Expand the status panel's task list to see each task's state and available workspace links or stop controls; idle cards are disabled and no longer open tag organization.
 - Background organization entry: After closing repository grouping or tag organization, the middle column keeps showing the current phase and processed counts, with direct access to the task or results.
 - Localized organization status: Task states and actions cover all 18 interface languages, stay on one line in narrow columns, and show their full text on hover.
