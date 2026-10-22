@@ -2,29 +2,33 @@
 
 All notable changes to Starcat are summarized here for release notes.
 
-## 2.0.0-待发布
+## 1.9.1-待发布
 
 ### New
 
 - Development update channel: Direct users can opt into signed and notarized preview releases in Settings, while Stable remains the default.
-- Linux.do discovery: Browse verified open-source projects promoted on Linux.do, see provenance badges across repository lists, and open original discussions from repository details.
+- Linux.do discovery: Browse verified open-source projects promoted on Linux.do with language subcategories, see provenance badges across repository lists, and open the original discussion directly from the source badge in repository details.
 - Quick search across lists: Expand the middle-column search field to quickly find repositories and activity items across Manage, Explore, Trending, Weekly, Awesome, Linux.do, notifications, and Undo Star.
 - Repository license filters: Select multiple licenses in the main window and combine them with other filters, with consistent pagination, project counts, and cached results.
+- Unstar data cleanup: Before unstarring, see which notes, tags, AI content, and analysis caches will be deleted; repositories in your library can optionally be removed from the knowledge base, with a clear warning that deletion cannot be undone.
 
 ### Improvements
 
-- Business icons: Insights icons now match the main window, while similar-repository recommendations, embedding models, and CodeFlow are easier to distinguish.
+- Business icons: Unified icons across the sidebar, Settings, repository details, and the AI/RAG workspaces, with distinct marks for forked origin and fork counts; Insights icons now match the main window, while similar-repository recommendations, embedding models, and CodeFlow are easier to distinguish.
 - Background task overview: Expand the status panel's task list to see each task's state and available workspace links or stop controls; idle cards are disabled and no longer open tag organization.
 - Background organization entry: After closing repository grouping or tag organization, the middle column keeps showing the current phase and processed counts, with direct access to the task or results.
 - Localized organization status: Task states and actions cover all 18 interface languages, stay on one line in narrow columns, and show their full text on hover.
 - License filter chips: Match sidebar tags with wrapping, content-sized height, and bounded scrolling; colors distinguish license obligation types, with full names and category notes on hover.
+- Narrow middle column: Hides auxiliary text such as the last sync time when space runs out, keeping search, filter, and refresh controls visible while the full text remains available on hover.
 
 ### Fixes
 
 - Stars sync: Prevents background grouping work from keeping refresh active; pending organization authorization writes are retried only after a manual refresh.
+- Unstarring deleted repositories: Unstarring no longer stops on a 404 when the repository has been removed from GitHub, and local state updates as expected.
 - AI organization tabs: Repository grouping and tag organization tabs keep a stable size as counts change, without shifting when switching states.
 - License filter popover: Keeps its size and options stable during repeated selections and clearing, while results and counts continue to update.
 - Middle-column menus: Sort, trending period, and notification filters now show a single dropdown arrow.
+- Weekly filter controls: The filter and sort dropdowns now share the same size instead of mismatched heights.
 
 ## 1.9.0
 
