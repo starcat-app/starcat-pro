@@ -21,6 +21,11 @@ All notable changes to Starcat are summarized here for release notes.
 - License key actions: Click the key to copy it with green success feedback; validation, unlinking, and activation controls stay inline with matching sizes.
 - Update channel names: Uses Stable and Preview labels while retaining existing update behavior.
 
+### Fixes
+
+- Unstarred repositories: Repositories no longer reappear in lists because of stale sync results or cached data after you unstar them.
+- Unstar confirmation: The single-card dialog uses a narrower width to avoid excessive empty space.
+
 ## 1.9.1
 
 ### New
