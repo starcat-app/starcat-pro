@@ -11,16 +11,8 @@ All notable changes to Starcat are summarized here for release notes.
 
 ### Improvements
 
-- General settings: Separates common settings from advanced preferences, moves disclosure arrows to the trailing edge, shortens Spotlight text, and clarifies subsection headings.
-- Notification settings: Groups the system notification switch separately from five notification types, preserving individual choices when the master switch is off.
-- Keyboard shortcuts: Groups shortcuts by purpose and sizes recorder buttons to their key combinations, retaining existing bindings and customization.
-- Account and privacy: Brings Pro and privacy settings into Account, shows GitHub permission details on demand, and separates data privacy from AI privacy.
-- Pro benefits: Presents five key benefits in a compact list with direct links to their official guides and a link to all features.
-- Pro card background: Active Pro users get a warm animated header that adapts to light and dark themes and pauses with Reduce Motion, when leaving the page, or when the window is inactive.
+- Settings redesign: Reorganizes configuration groups and navigation, unifies page headers, separators, and action layouts, removes repetitive descriptions, and brings account, privacy, and Pro benefits into a clearer structure. The Direct edition also streamlines screensaver, license, and update-channel controls.
 - Insights header layout: Reduces empty space above both columns and keeps card heights aligned with their content.
-- Screensaver settings: Uses a landscape avatar-wall preview, compact install, remove, and help icons, step-by-step setup guidance, and a slimmer download indicator.
-- License key actions: Click the key to copy it with green success feedback; validation, unlinking, and activation controls stay inline with matching sizes.
-- Update channel names: Uses Stable and Preview labels while retaining existing update behavior.
 
 ### Fixes
 
