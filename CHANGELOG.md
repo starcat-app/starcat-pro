@@ -20,6 +20,31 @@ All notable changes to Starcat are summarized here for release notes.
 - Unstarred repositories: Repositories no longer reappear in lists because of stale sync results or cached data after you unstar them.
 - Unstar confirmation: The single-card dialog uses a narrower width to avoid excessive empty space.
 
+## 1.9.2-待发布
+
+### New
+
+- Issue AI summaries: Open a glass panel from the floating button above the input area's divider, drag its top edge to adjust height, and read a streaming Markdown summary; generation continues when hidden or you switch Issues, and reopening restores progress or results.
+- Free source tools: Repository context packing, CodeFlow, and CodebaseMemory code graphs no longer require Pro, with existing repository and runtime limits retained.
+
+### Improvements
+
+- Settings redesign: Reorganizes configuration groups and navigation, unifies page headers, separators, and action layouts, removes repetitive descriptions, and brings account, privacy, and Pro benefits into a clearer structure. The Direct edition also streamlines screensaver, license, and update-channel controls.
+- Insights header layout: Reduces empty space above both columns and keeps card heights aligned with their content.
+- AI organization workspaces: Uses more compact windows for repository grouping and tag organization, lets long content scroll within each panel, and restores session options to their values when the window opened.
+- Background organization banner: Uses consistent icon actions in wide and narrow middle columns, keeps status on one line, and shows full action names on hover.
+
+### Fixes
+
+- Activity timeline: Reduces repeated processing of loaded comments while scrolling the middle column, improving responsiveness with longer notification lists.
+- Unstarred repositories: Repositories no longer reappear in lists because of stale sync results or cached data after you unstar them.
+- Unstar confirmation: The single-card dialog uses a narrower width to avoid excessive empty space.
+- Self-hosted service connections: Saves addresses and keys only after a successful manual test; automatic checks only verify connections, and failures preserve the saved configuration.
+- External index connections: Saves Meilisearch and Qdrant connection drafts only after successful tests, preserving the saved connection if key storage fails.
+- External search credentials: After you edit a key or leave Settings, stale test results no longer overwrite saved credentials or enablement.
+- Knowledge Base indexing failures: Ends the building state and pauses automatic retries for the same embedding configuration after a failed request, keeping text search available until a manual retry or configuration change.
+- Stopping Knowledge Base indexing: Ignores late embedding responses after stopping and releases in-progress chunks so indexing can resume later.
+
 ## 1.9.1
 
 ### New
