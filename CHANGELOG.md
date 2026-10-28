@@ -11,6 +11,7 @@ All notable changes to Starcat are summarized here for release notes.
 
 ### Improvements
 
+- README image loading: Shows a theme-aware placeholder while large images and GIFs load, then displays the image when ready to avoid long blank areas.
 - Settings redesign: Reorganizes configuration groups and navigation, unifies page headers, separators, and action layouts, removes repetitive descriptions, and brings account, privacy, and Pro benefits into a clearer structure. The Direct edition also streamlines screensaver, license, and update-channel controls.
 - Insights header layout: Reduces empty space above both columns and keeps card heights aligned with their content.
 
@@ -19,6 +20,7 @@ All notable changes to Starcat are summarized here for release notes.
 - Activity timeline: Reduces repeated processing of loaded comments while scrolling the middle column, improving responsiveness with longer notification lists.
 - Unstarred repositories: Repositories no longer reappear in lists because of stale sync results or cached data after you unstar them.
 - Unstar confirmation: The single-card dialog uses a narrower width to avoid excessive empty space.
+- README images: Fixes missing images and GIFs in some light/dark theme picture sources.
 
 ## 1.9.2-待发布
 
