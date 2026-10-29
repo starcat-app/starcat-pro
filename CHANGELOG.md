@@ -21,6 +21,7 @@ All notable changes to Starcat are summarized here for release notes.
 - Unstarred repositories: Repositories no longer reappear in lists because of stale sync results or cached data after you unstar them.
 - Unstar confirmation: The single-card dialog uses a narrower width to avoid excessive empty space.
 - README images: Fixes missing images and GIFs in some light/dark theme picture sources.
+- README attachment images: Fixes images disappearing after temporary links expire, with existing cached pages repaired automatically.
 
 ## 1.9.2-待发布
 
