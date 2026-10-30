@@ -48,6 +48,7 @@ All notable changes to Starcat are summarized here for release notes.
 - External search credentials: After you edit a key or leave Settings, stale test results no longer overwrite saved credentials or enablement.
 - Knowledge Base indexing failures: Ends the building state and pauses automatic retries for the same embedding configuration after a failed request, keeping text search available until a manual retry or configuration change.
 - Stopping Knowledge Base indexing: Ignores late embedding responses after stopping and releases in-progress chunks so indexing can resume later.
+- Update window readability: Release notes now follow the system appearance, keeping headings, body text, links, code, and separators readable in dark mode.
 
 ## 1.9.1
 
