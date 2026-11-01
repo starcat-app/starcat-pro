@@ -27,6 +27,7 @@ All notable changes to Starcat are summarized here for release notes.
 - License card: License badges in repository details and search now share one obligation-colored card listing rights and duties, with the official reference a tap away.
 - Update channel toggle: The Direct update channel becomes a single "include preview updates" switch; existing preferences carry over, and turning it off never downgrades the installed build.
 - Language support: Removes the Arabic interface language; the other 17 languages remain fully localized.
+- Daily Radar categories: Category names in the sidebar, reader, and settings follow the interface language, with per-category content toggles in Settings.
 
 ### Fixes
 
