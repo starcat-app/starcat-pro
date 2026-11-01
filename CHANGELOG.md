@@ -11,6 +11,8 @@ All notable changes to Starcat are summarized here for release notes.
 - Daily Radar: A new reading workspace for daily reports, browsable by topic categories with edition calendar navigation, per-category badges, and source branding; reports follow the app language.
 - Summary replay: Successful issue summaries are saved locally, so reopening the same issue after relaunch replays the summary and shows when it was generated.
 - Explore & Weekly source filters: Filter explore categories and Weekly by source preference, remembered across restarts.
+- Issues popover: Browse a repository's issues from the detail header with search by title or number, open/closed filters, scroll pagination, and precise non-PR counts, with one-tap access on GitHub.
+- Create issues: Submit new issues from the popover with an auto-focused title, Markdown editing and preview, and per-repo drafts that survive relaunch.
 
 ### Improvements
 
@@ -22,6 +24,9 @@ All notable changes to Starcat are summarized here for release notes.
 - File download window: The toolbar uses the repository owner's avatar with type-specific file icons.
 - Awesome source manager: The canvas keeps a fixed size, so operations no longer shift the layout.
 - Awesome sort menu: Shares the unified menu styling with other middle-column lists.
+- License card: License badges in repository details and search now share one obligation-colored card listing rights and duties, with the official reference a tap away.
+- Update channel toggle: The Direct update channel becomes a single "include preview updates" switch; existing preferences carry over, and turning it off never downgrades the installed build.
+- Language support: Removes the Arabic interface language; the other 17 languages remain fully localized.
 
 ### Fixes
 
