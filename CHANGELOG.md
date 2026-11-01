@@ -8,6 +8,9 @@ All notable changes to Starcat are summarized here for release notes.
 
 - Issue AI summaries: Open a glass panel from the floating button above the input area's divider, drag its top edge to adjust height, and read a streaming Markdown summary; generation continues when hidden or you switch Issues, and reopening restores progress or results.
 - Free source tools: Repository context packing, CodeFlow, and CodebaseMemory code graphs no longer require Pro, with existing repository and runtime limits retained.
+- Daily Radar: A new reading workspace for daily reports, browsable by topic categories with edition calendar navigation, per-category badges, and source branding; reports follow the app language.
+- Summary replay: Successful issue summaries are saved locally, so reopening the same issue after relaunch replays the summary and shows when it was generated.
+- Explore & Weekly source filters: Filter explore categories and Weekly by source preference, remembered across restarts.
 
 ### Improvements
 
@@ -15,6 +18,10 @@ All notable changes to Starcat are summarized here for release notes.
 - GitHub attachment caching: Saves loaded README images and GIFs locally for faster repeat viewing, with storage included in image-cache statistics and cleanup.
 - Settings redesign: Reorganizes configuration groups and navigation, unifies page headers, separators, and action layouts, removes repetitive descriptions, and brings account, privacy, and Pro benefits into a clearer structure. The Direct edition also streamlines screensaver, license, and update-channel controls.
 - Insights header layout: Reduces empty space above both columns and keeps card heights aligned with their content.
+- Summary panel polish: The launcher button highlights existing summaries in blue, the panel closes with Esc, and body scrolling no longer collides with the scrollbar.
+- File download window: The toolbar uses the repository owner's avatar with type-specific file icons.
+- Awesome source manager: The canvas keeps a fixed size, so operations no longer shift the layout.
+- Awesome sort menu: Shares the unified menu styling with other middle-column lists.
 
 ### Fixes
 
@@ -23,6 +30,8 @@ All notable changes to Starcat are summarized here for release notes.
 - Unstar confirmation: The single-card dialog uses a narrower width to avoid excessive empty space.
 - README images: Fixes missing images and GIFs in some light/dark theme picture sources.
 - README attachment images: Fixes images disappearing after temporary links expire, with existing cached pages repaired automatically.
+- AI reply panel: The AI reply panel no longer leaves a gap between its bottom edge and the status bar.
+- Awesome filter bar: The filter bar is realigned to the left-search, right-actions layout.
 
 ## 1.9.2-待发布
 
