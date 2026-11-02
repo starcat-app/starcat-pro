@@ -8,11 +8,10 @@ All notable changes to Starcat are summarized here for release notes.
 
 - Issue AI summaries: Open a glass panel from the floating button above the input area's divider, drag its top edge to adjust height, and read a streaming Markdown summary; generation continues when hidden or you switch Issues, and reopening restores progress or results.
 - Free source tools: Repository context packing, CodeFlow, and CodebaseMemory code graphs no longer require Pro, with existing repository and runtime limits retained.
-- Daily Radar: A new reading workspace for daily reports, browsable by topic categories with edition calendar navigation, per-category badges, and source branding; reports follow the app language.
+- Daily Radar: A new reading workspace for daily reports, browsable by topic categories with edition calendar navigation, per-category badges, and source branding; reports follow the app language. Each report gets a locally generated abstract cover, unique per edition; loading and category switches show skeleton placeholders, with seamless swaps when cached.
 - Summary replay: Successful issue summaries are saved locally, so reopening the same issue after relaunch replays the summary and shows when it was generated.
 - Explore & Weekly source filters: Filter explore categories and Weekly by source preference, remembered across restarts.
-- Issues popover: Browse a repository's issues from the detail header with search by title or number, open/closed filters, scroll pagination, and precise non-PR counts, with one-tap access on GitHub.
-- Create issues: Submit new issues from the popover with an auto-focused title, Markdown editing and preview, and per-repo drafts that survive relaunch.
+- Issues workspace: The detail-page entry now opens a full workspace with a list-detail layout, search, state filters, and paginated scrolling, with precise non-PR counts; the detail side reuses the activity conversation (comment timeline, AI summary, translation), and new-issue creation supports templates, AI drafting, image pasting, and per-repository drafts.
 
 ### Improvements
 
@@ -38,6 +37,8 @@ All notable changes to Starcat are summarized here for release notes.
 - README attachment images: Fixes images disappearing after temporary links expire, with existing cached pages repaired automatically.
 - AI reply panel: The AI reply panel no longer leaves a gap between its bottom edge and the status bar.
 - Awesome filter bar: The filter bar is realigned to the left-search, right-actions layout.
+- Label events: Fixed duplicated wording such as "added the label … label" in timeline text across 10 languages.
+- Explore preferences: Category and weekly source preferences set before upgrading are now preserved automatically.
 
 ## 1.9.2-待发布
 
