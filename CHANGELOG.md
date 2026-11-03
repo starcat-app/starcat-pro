@@ -31,6 +31,7 @@ All notable changes to Starcat are summarized here for release notes.
 
 ### Fixes
 
+- Embedding error guidance: Connection, configuration, authentication, and rate-limit issues no longer offer email feedback; connection failures show numbered recovery steps and open embedding settings directly, while request processing failures retain feedback.
 - Activity timeline: Reduces repeated processing of loaded comments while scrolling the middle column, improving responsiveness with longer notification lists.
 - Unstarred repositories: Repositories no longer reappear in lists because of stale sync results or cached data after you unstar them.
 - Unstar confirmation: The single-card dialog uses a narrower width to avoid excessive empty space.
