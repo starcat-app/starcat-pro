@@ -1,3 +1,9 @@
+> **⚠️ 本仓库即将归档——不再是公开支持与更新日志的入口。**
+>
+> - Bug 反馈与功能建议 → [Starcat 主仓库 issues](https://github.com/starcat-app/Starcat/issues)
+> - 更新日志 → [starcat-site](https://github.com/starcat-app/starcat-site)（`appstore/` 与 `direct/` 双渠道）· [starcat.ink/changelog](https://starcat.ink/changelog.html)
+> - 推广图片 → [starcat-site `assets/`](https://github.com/starcat-app/starcat-site/tree/main/assets)
+
 <div align="center">
 <a href="https://starcat.ink"><img src="./banner.webp" width="100%" alt="Starcat Pro" align="center"/></a>
 

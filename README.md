@@ -1,3 +1,9 @@
+> **⚠️ This repository is being archived — it is no longer the support or changelog home.**
+>
+> - Bugs and feature requests → [Starcat main repository issues](https://github.com/starcat-app/Starcat/issues)
+> - Release notes → [starcat-site](https://github.com/starcat-app/starcat-site) (`appstore/` and `direct/` changelogs) · [starcat.ink/changelog](https://starcat.ink/changelog.html)
+> - Promo images → [starcat-site `assets/`](https://github.com/starcat-app/starcat-site/tree/main/assets)
+
 <div align="center">
 <a href="https://starcat.ink"><img src="./banner.webp" width="100%" alt="Starcat Pro" align="center"/></a>
 
